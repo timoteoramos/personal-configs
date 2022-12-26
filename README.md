@@ -17,7 +17,7 @@ curl https://raw.githubusercontent.com/theova/base16-qutebrowser/master/themes/d
 
 ### Zshell
 
-My configuration requires Antigen (included on .zshrc), which depends heavly on Git.
+My configuration requires Antigen (included on .zshrc), which depends heavily on Git.
 
 ```bash
 git clone https://github.com/zsh-users/antigen.git ~/.config/antigen
