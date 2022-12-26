@@ -47,3 +47,19 @@ I hate that default sorting rule for apps, so I use this command to sort them al
 ```bash
 gsettings set org.gnome.shell app-picker-layout "[]"
 ```
+
+## Useful tools
+
+There are some tools that I install with unconventional methods. Maybe it can be useful for you.
+
+### bauh
+
+- Official homepage: https://github.com/vinifmor/bauh
+- Requires: pipx
+
+Bauh is useful for managing appimages, flatpaks snaps and even webapps. I prefer to install it via pipx in order to isolate it on my personal profile. When I need it, I just press ALT+F2 and type `bauh` to launch it.
+
+```bash
+pipx install bauh
+pipx inject bauh lxml bs4
+```
