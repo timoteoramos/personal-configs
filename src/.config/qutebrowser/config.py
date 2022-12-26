@@ -1,0 +1,8 @@
+config.load_autoconfig(True)
+config.set('content.cookies.accept', 'never')
+config.set('content.cookies.store', False)
+config.set('content.javascript.enabled', False)
+config.set('content.proxy', 'socks://127.0.0.1:9050/')
+config.set('url.default_page', 'https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html')
+config.set('url.searchengines', {'DEFAULT': 'https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html?q={}'})
+config.set('url.start_pages', 'https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html')
